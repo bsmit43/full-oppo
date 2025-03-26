@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Full oppo - About Full oppo">
+      <title>Full oppo - About Full oppo</title>
+      <script src="https://cdn.tailwindcss.com"></script>
+      <style>
+        
+        body{font-family:'Source Sans Pro', system-ui, sans-serif;overflow-x:hidden;width:100%;max-width:100%;margin:0;padding:0}
+        h1,h2,h3,h4,h5,h6{font-family:'Playfair Display', serif}
+        section,header,footer{width:100vw;max-width:100%;overflow-x:hidden}
+        header{background-size:cover;background-position:center;background-repeat:no-repeat;position:relative}
+        [data-animate]{opacity:0;transition:opacity .8s ease-out}[data-animate].visible{opacity:1}
+        .nav-fixed{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(255,255,255,.9);backdrop-filter:blur(8px);box-shadow:0 1px 3px rgba(0,0,0,.1);transition:all .3s ease;width:100%}
+        ::-webkit-scrollbar{width:8px;height:8px}
+        ::-webkit-scrollbar-track{background:#f1f1f1}
+        ::-webkit-scrollbar-thumb{background:hsl(347, 84%, 40%);border-radius:4px}
+        ::-webkit-scrollbar-thumb:hover{background:hsl(347, 84%, 30%)}
+        body::before{content:'';position:fixed;top:0;left:0;right:0;height:3px;background:hsl(347, 84%, 40%);transform:scaleX(calc(var(--scroll-progress,0%)/100));transform-origin:left;z-index:1000}
+        @media print{[data-animate]{opacity:1;transform:none}}
+    
+        /* Custom Styles - Red Theme */
+        :root {
+            --primary-color: #dc2626; /* Red */
+            --secondary-color: #f87171; /* Light Red */
+            --accent-color: #fca5a5; /* Even Lighter Red */
+            --text-color: #ffffff; /* White */
+            --background-color: #1f2937; /* Dark Gray */
+        }
+
+        body {
+            font-family: sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        .bg-gradient-red {
+            background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+        }
+
+        .text-red-accent {
+            color: var(--accent-color);
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .shadow-red {
+            box-shadow: 0 4px 6px -1px rgba(220, 38, 38, 0.1), 0 2px 4px -1px rgba(220, 38, 38, 0.06);
+        }
+    
+      </style>
+    </head>
+    <body>
+      <nav class="absolute top-0 left-0 w-full py-6 px-4 sm:px-6 lg:px-8 z-50">
+            <div class="flex items-center justify-between">
+                <div>
+                    <a href="#" class="text-2xl font-bold text-white">
+                        Full Oppo Aerospace
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="text-white hover:text-red-accent transition duration-300">About</a>
+                    <a href="#" class="text-white hover:text-red-accent transition duration-300">Services</a>
+                    <a href="#" class="text-white hover:text-red-accent transition duration-300">Projects</a>
+                    <a href="#" class="text-white hover:text-red-accent transition duration-300">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white focus:outline-none focus:text-red-accent">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Mobile Menu (Hidden by default) -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4">
+                <a href="#" class="block py-2 px-4 text-white hover:bg-red-700 transition duration-300">About</a>
+                <a href="#" class="block py-2 px-4 text-white hover:bg-red-700 transition duration-300">Services</a>
+                <a href="#" class="block py-2 px-4 text-white hover:bg-red-700 transition duration-300">Projects</a>
+                <a href="#" class="block py-2 px-4 text-white hover:bg-red-700 transition duration-300">Contact</a>
+            </div>
+        </nav>
+      <header class="bg-gradient-to-br from-blue-600 to-blue-800 text-white">
+        <div class="container mx-auto px-4 py-12">
+          <h1 class="text-3xl font-bold">Full oppo - About Full oppo</h1>
+        </div>
+      </header>
+      <main class="container mx-auto px-4 py-8">
+        ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Oppo - About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles - Consistent with Homepage */
+        .bg-gradient-custom {
+            background: linear-gradient(to right, rgba(255, 0, 0, 0.9), rgba(255, 165, 0, 0.9)); /* Red to Orange Gradient */
+        }
+        .text-shadow-md {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans">
+
+    <!-- Header (Consistent with Homepage) -->
+    <header class="bg-gradient-custom text-white py-6 shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <a href="/" class="text-2xl font-bold">Full Oppo</a>
+            <nav class="hidden md:flex space-x-6">
+                <a href="/" class="hover:text-gray-200">Home</a>
+                <a href="/about" class="hover:text-gray-200">About Us</a>
+                <a href="#" class="hover:text-gray-200">Services</a>
+                <a href="#" class="hover:text-gray-200">Projects</a>
+                <a href="#" class="hover:text-gray-200">Contact</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
+                <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div id="mobile-menu" class="hidden md:hidden bg-red-600 py-2">
+            <a href="/" class="block px-4 py-2 text-white hover:bg-red-700">Home</a>
+            <a href="/about" class="block px-4 py-2 text-white hover:bg-red-700">About Us</a>
+            <a href="#" class="block px-4 py-2 text-white hover:bg-red-700">Services</a>
+            <a href="#" class="block px-4 py-2 text-white hover:bg-red-700">Projects</a>
+            <a href="#" class="block px-4 py-2 text-white hover:bg-red-700">Contact</a>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-red-700 mb-8" data-animate="fade-in">About Full Oppo</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <img src="/images/g5daf59c131c2e4671bfca33536a7fa05cf7b7263e2d8111fa50f3e833ab9755cb41151e4d183f5b9fc8d024bf0c01f3a_640.jpg" alt="Aerospace Technology" class="rounded-lg shadow-md" data-animate="slide-in-left">
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-red-600 mb-4" data-animate="fade-in">Our Story</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4" data-animate="fade-in">
+                        Founded in 1985 by a team of passionate aerospace engineers, Full Oppo began as a small research and development firm focused on advanced propulsion systems. Over the years, we have grown into a leading provider of innovative aerospace solutions, serving both government and commercial clients. Our commitment to excellence and relentless pursuit of cutting-edge technology have made us a trusted partner in the aerospace industry.
+                    </p>
+                    <p class="text-gray-700 leading-relaxed" data-animate="fade-in">
+                        From pioneering work in hypersonic flight to developing sustainable aviation technologies, Full Oppo has consistently pushed the boundaries of what's possible. We are proud of our history and excited about the future of aerospace.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Values Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-red-600 mb-4" data-animate="fade-in">Our Mission</h3>
+                    <p class="text-gray-700 leading-relaxed mb-4" data-animate="fade-in">
+                        To advance the frontiers of aerospace technology, enabling safer, more efficient, and sustainable air and space travel for all. We strive to be a catalyst for innovation, driving progress and creating value for our customers and the world.
+                    </p>
+                    <h3 class="text-2xl font-semibold text-red-600 mb-4 mt-8" data-animate="fade-in">Our Values</h3>
+                    <ul class="list-disc list-inside text-gray-700" data-animate="fade-in">
+                        <li><strong>Innovation:</strong> We embrace creativity and constantly seek new and better ways to solve complex challenges.</li>
+                        <li><strong>Integrity:</strong> We conduct our business with the highest ethical standards, building trust and fostering long-term relationships.</li>
+                        <li><strong>Excellence:</strong> We are committed to delivering exceptional quality in everything we do, exceeding expectations and setting new benchmarks.</li>
+                        <li><strong>Collaboration:</strong> We believe in the power of teamwork and work closely with our partners to achieve shared goals.</li>
+                        <li><strong>Sustainability:</strong> We are dedicated to developing environmentally responsible technologies that minimize our impact on the planet.</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="/images/g8f07d3cc2787b3f2e7cfe7ff393ad89d58014305332b8edd2c0588186c671ac23306c7501df191560dc4466dcfc610da84ccbaf11914c7e917bb20ab65019b06_640.jpg" alt="Mission and Values" class="rounded-lg shadow-md" data-animate="slide-in-right">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-red-700 mb-8" data-animate="fade-in">Meet Our Team</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Team Member 1 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-4 text-center" data-animate="slide-in-up">
+                    <img src="/api/placeholder/200/200" alt="Dr. Emily Carter" class="rounded-full mx-auto mb-4">
+                    <h4 class="text-xl font-semibold text-red-600">Dr. Emily Carter</h4>
+                    <p class="text-gray-700">Chief Technology Officer</p>
+                    <p class="text-gray-500 mt-2">Ph.D. in Aerospace Engineering, MIT</p>
+                </div>
+                <!-- Team Member 2 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-4 text-center" data-animate="slide-in-up">
+                    <img src="/api/placeholder/200/200" alt="David Rodriguez" class="rounded-full mx-auto mb-4">
+                    <h4 class="text-xl font-semibold text-red-600">David Rodriguez</h4>
+                    <p class="text-gray-700">Director of Engineering</p>
+                    <p class="text-gray-500 mt-2">M.S. in Mechanical Engineering, Stanford</p>
+                </div>
+                <!-- Team Member 3 -->
+                <div class="bg-gray-50 rounded-lg shadow-md p-4 text-center" data-animate="slide-in-up">
+                    <img src="/api/placeholder/200/200" alt="Sarah Chen" class="rounded-full mx-auto mb-4">
+                    <h4 class="text-xl font-semibold text-red-600">Sarah Chen</h4>
+                    <p class="text-gray-700">Head of Research & Development</p>
+                    <p class="text-gray-500 mt-2">Ph.D. in Physics, Caltech</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-red-700 mb-8" data-animate="fade-in">Our Achievements</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <ul class="list-disc list-inside text-gray-700" data-animate="fade-in">
+                        <li><strong>2022:</strong> Awarded the "Aerospace Innovation of the Year" for our work on sustainable aviation fuels.</li>
+                        <li><strong>2020:</strong> Successfully launched a prototype hypersonic vehicle, achieving Mach 5 flight.</li>
+                        <li><strong>2018:</strong> Partnered with NASA on a research project to develop advanced materials for spacecraft.</li>
+                        <li><strong>2015:</strong> Received the "National Medal of Technology and Innovation" for our contributions to aerospace engineering.</li>
+                        <li><strong>2010:</strong> Developed a revolutionary propulsion system that significantly reduced fuel consumption in commercial aircraft.</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="/images/g66e213fdc8732fac0702b925869564a550918496ace88d2269400484afe2e71efbaa351e914160e4ffee8c7d1f9e5a8f0c629ff0d50318635fb3587a3845fa5e_640.jpg" alt="Achievements" class="rounded-lg shadow-md" data-animate="slide-in-right">
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Contact Section -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center text-red-700 mb-8" data-animate="fade-in">Contact Us</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div>
+                        <p class="text-gray-700 leading-relaxed mb-4" data-animate="fade-in">
+                            Have questions or want to learn more about our aerospace solutions? Get in touch with our team today.
+                        </p>
+                        <ul class="text-gray-700" data-animate="fade-in">
+                            <li class="mb-2"><strong class="text-red-600">Address:</strong> 123 Aerospace Drive, Innovation City, CA 91234</li>
+                            <li class="mb-2"><strong class="text-red-600">Phone:</strong> (555) 123-4567</li>
+                            <li class="mb-2"><strong class="text-red-600">Email:</strong> info@full-oppo.com</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <form class="max-w-md mx-auto" data-animate="fade-in">
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Name</label>
+                                <input type="text" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Name">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                                <input type="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Email">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
+                                <textarea id="message" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                                    Send Message
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- Footer (Consistent with Homepage) -->
+    <footer class="bg-red-800 text-white py-8">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h4 class="text-xl font-semibold mb-4">Full Oppo</h4>
+                <p class="text-gray-300">Leading provider of innovative aerospace solutions, serving government and commercial clients.</p>
+            </div>
+            <div>
+                <h4 class="text-xl font-semibold mb-4">Quick Links</h4>
+                <ul class="text-gray-300">
+                    <li><a href="/" class="hover:text-white">Home</a></li>
+                    <li><a href="/about" class="hover:text-white">About Us</a></li>
+                    <li><a href="#" class="hover:text-white">Services</a></li>
+                    <li><a href="#" class="hover:text-white">Projects</a></li>
+                    <li><a href="#" class="hover:text-white">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-xl font-semibold mb-4">Contact Information</h4>
+                <p class="text-gray-300">123 Aerospace Drive, Innovation City, CA 91234</p>
+                <p class="text-gray-300">(555) 123-4567</p>
+                <p class="text-gray-300">info@full-oppo.com</p>
+            </div>
+        </div>
+        <div class="text-center mt-8 text-gray-400">
+            &copy; 2024 Full Oppo. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        });
+
+        // Animation on scroll (basic implementation)
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate'); // You'll need to define the 'animate' class with Tailwind's animation utilities
+                    observer.unobserve(
+      </main>
+      
+    </body>
+    </html>
